@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<title>SENDI FAUZAN | Genshin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<style>
+   .card1 {
+      width: 100%;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .card1 img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card1:hover img {
+      transform: scale(1.2);
+    }
+
+    .intro {
+        width: 300px;
+        height: 480px;
+        background-color: #c3bcbc;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transform-style: preserve-3d;
+        transition: transform 0.3s ease-in-out;
+    }
+    .intro:hover {
+        transform: rotateX(10deg) rotateY(10deg) translateZ(10px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .name {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .social-media a {
+        text-decoration: none;
+        color: #007bff;
+        font-size: 1.5rem;
+        margin: 0 0.5rem;
+    }
+
+    .social-icon {
+        width: 32px;
+        height: 32px;
+        object-fit: cover;
+        margin-right: 1rem;
+    }
+</style>
+
+<body>
+    <div class="w3-bar w3-blue w3-center">
+        <img src="css/lobby.png" style="width: 100%;height:200px;">
+        <div class="w3-bar w3-blue">
+            <button class="w3-bar-item w3-button" onclick="openKode('Profile')">PROFILE</button>
+            <button class="w3-bar-item w3-button" onclick="openKode('Maps')">MAP</button>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button" onclick="openKode('Char')">CHARACTER</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-3">
+                <div class="w3-blue">
+                    <button class="w3-bar-item w3-button" onclick="openKode('Ayaka')">Ayaka</button>
+                    <button class="w3-bar-item w3-button" onclick="openKode('Raiden')">Raiden</button>
+                    <button class="w3-bar-item w3-button" onclick="openKode('YaeMiko')">YaeMiko</button>
+                    <button class="w3-bar-item w3-button" onclick="openKode('hutao')">HuTao</button>
+                    <button class="w3-bar-item w3-button" onclick="openKode('nahida')">Nahida</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+<!-- Profile -->
+
+<div style="display: flex; justify-content: center; ">
+    <div id= "Profile" class="w3-center w3-animate-zoom Kode intro" style="display:none" >
+    
+        <img src="css/profile.jpg">
+    </a>
+    <div class="name">HALLO!!</div>
+    <div class="title">SENDI FAUZAN_10123180</div>
+    <div class="subtitle">Mahasiswa dari Universitas Komputer Indonesia</div>
+    <div class="social-media">
+        <a href="https://www.tiktok.com/@hamikho?is_from_webapp=1&sender_device=pc">
+            <img src="css/TT.png" alt="TikTok" class="social-icon">
+        </a>
+        <a href="https://www.instagram.com/sendifauzann/">
+            <img src="css/IG.png" alt="Instagram" class="social-icon">
+        </a>
+    </div>
+    </div>
+</div>
+
+<!-- MAPS -->
+<div id="Maps" class="Kode">
+    <div>
+        <button class="card1 w3-button" style="padding: 0;" onclick="openKode('Monstadt')">
+            <img src="css/Bmonstatd.png" style="padding: 0;width: 100%;"/>
+        </button>
+        <button class="card1 w3-button" style="padding: 0;" onclick="openKode('Liyue')">
+            <img src="css/Bliyue.png" style="padding: 0; width: 100%"/>
+        </button>
+        <button class="card1 w3-button" style="padding: 0;" onclick="openKode('Inazuma')">
+            <img src="css/Binazuma.png" style="padding: 0; width: 100%"/>
+        </button>
+        <button class="card1 w3-button" style="padding: 0;" onclick="openKode('Sumeru')">
+            <img src="css/Bsumeru.png" style="padding: 0; width: 100%"/>
+        </button>
+        <button class="card1 w3-button" style="padding: 0;" onclick="openKode('Fontaine')">
+            <img src="css/Bfontaine.png" style="padding: 0; width: 100%"/>
+        </button>
+    </div>
+</div>
+
+
+<div id="Monstadt" class="w3-container Kode w3-animate-fading" style="display:none">
+    <div class="w3-animate-fading w3-center" style="margin: 10px; padding: 0">
+        <img src="css/Monstadt.png" style="width: 35%" />
+    </div>
+    <center><h2>Monstadt</h2></center>
+    <p>Monstadt adalah salah satu dari tujuh kota yang terdapat di dunia Teyvat dalam permainan Genshin Impact.
+       Terletak di wilayah Mondstadt, kota ini dikelilingi oleh pegunungan yang menjadikannya sebuah kota yang terletak di dataran tinggi.
+       Pusat kota ini dihiasi dengan bangunan yang megah, termasuk Katedral Barbados yang menjulang tinggi sebagai landmark yang menonjol. 
+       Selain itu, Monstadt dikenal dengan anginnya yang kuat dan pemandangan yang menakjubkan, membuatnya menjadi destinasi yang penuh dengan keindahan alam.
+    </p>
+</div>
+<div id="Inazuma" class="w3-container Kode w3-animate-bottom" style="display:none">
+    <div class="w3-animate-botttom w3-center" style="margin: 10px; padding: 0">
+        <img src="css/Inazuma.jpg" style="width: 35%" />
+    </div>
+    <center><h2>Inazuma</h2></center>
+    <p>Inazuma, sebuah pulau terpencil yang mempesona di dunia Teyvat dalam Genshin Impact, menghadirkan petualangan baru dengan pemandangan yang eksotis dan atmosfer yang kaya akan budaya Jepang.
+       Terdiri dari enam pulau yang terpisah, Inazuma diperintah oleh pemimpin yang kuat, Elektra, yang memerintahkan ketat wilayahnya.
+       Pemain akan menemui petualangan yang menantang di antara lembah hijau yang subur, kuil-kuil misterius, dan kota-kota tradisional dengan arsitektur yang megah.
+       Inazuma juga menawarkan elemen-elemen unik seperti badai elektro yang dapat mempengaruhi pertarungan dan menjadikan perjalanan menjelajahi setiap sudut pulau ini semakin menarik.
+    </p>
+</div>
+
+<div id="Liyue" class="w3-container Kode w3-animate-bottom" style="display:none">
+    <div class="w3-animate-botttom w3-center" style="margin: 10px; padding: 0">
+        <img src="css/liyue.png" style="width: 35%" />
+    </div>
+    <center><h2>Liyue</h2></center>
+    <p>Liyue adalah sebuah wilayah yang memukau dan kaya budaya dalam dunia fantasi yang dihadirkan dalam permainan video Genshin Impact. Terletak di benua Teyvat, Liyue dikenal dengan pemandangannya yang menakjubkan, yang melibatkan pegunungan yang menjulang tinggi, lembah hijau subur, dan sungai-sungai yang meliuk-liuk. Kota pelabuhan, yakni Harbor Liyue, adalah pusat kehidupan ekonomi dan politik, dikelilingi oleh bangunan-bangunan indah dengan arsitektur yang dipengaruhi oleh budaya Tiongkok. Liyue juga terkenal dengan batu-batu naga, batu berenergi khusus yang memiliki kekuatan mistis. Keindahan dan misteri Liyue mengundang para petualang untuk menjelajahi setiap sudutnya, sambil menemukan rahasia-rahasia lama dan bertemu dengan karakter-karakter unik yang mendiami wilayah ini.
+    </p>
+</div>
+<div id="Fontaine" class="w3-container Kode w3-animate-bottom" style="display:none">
+    <div class="w3-animate-botttom w3-center" style="margin: 10px; padding: 0">
+        <img src="css/fontaine.png" style="width: 35%" />
+    </div>
+    <center><h2>Fontaine</h2></center>
+    <p>Sebuah kisah yang belum pernah terdengar, legenda yang telah dilupakan, seperti kerajaan yang hilang tenggelam di bawah ombak, merindukan seorang penyair untuk menyanyikan lagu-lagunya yang tenggelam.
+        Mengikuti arah arus murni, melintasi hutan belantara, kedalaman hutan dan luasnya lautan pasir, tiba di asal semua perairan benua.
+        Di puncak air terjun, di kedalaman ibu kota di atas laut terestrial, tirai naik dengan lembut di awal bab petualangan berikutnya.
+</div>
+<div id="Sumeru" class="w3-container Kode w3-animate-zoom" style="display:none">
+    <div class="w3-animate-top w3-center" style="margin: 10px; padding: 0">
+        <img src="css/Sumeru.jpg" style="width: 35%" />
+    </div>
+    <center><h2>Sumeru</h2></center>
+    <p>Sumeru, terletak di wilayah Teyvat dalam Genshin Impact, adalah kota yang didominasi oleh unsur esensi dari pengetahuan dan filsafat.
+       Dikelilingi oleh pegunungan dan lembah yang megah, Sumeru memancarkan daya tarik dengan perpustakaan besar yang berisi pengetahuan mendalam dan tempat-tempat peribadatan yang kuno.
+       Kota ini juga menjadi pusat bagi para akademisi, ilmuwan, dan cendekiawan, menjadikannya tempat yang penuh dengan diskusi intelektual dan penelitian. Dengan arsitektur yang megah dan suasana yang sarat akan misteri,
+       Sumeru menantang para petualang untuk menjelajahi segala rahasia dan kebijaksanaan yang tersimpan di dalamnya.
+    </p>
+</div>
+
+<center>
+<div id="Char" class="w3-container Kode w3-animate-zoom" style="display:none">
+    <div>
+        <button class="w3-container w3-animate-left w3-button w3-round-xxlarge w3-card" style="margin: 10px; padding: 0"onclick="openKode('Ayaka')">
+            <img src="css/ayaka.jpg" style="width: 100%" />
+        </button>
+        <button class="w3-container w3-animate-top w3-button w3-round-xxlarge w3-card" style="margin: 10px; padding: 0"onclick="openKode('Raiden')">
+            <img src="css/raiden.jpg" style="width: 100%" />
+        </button>
+        <button class="w3-container w3-animate-zoom w3-button w3-round-xxlarge w3-card" style="margin: 10px; padding: 0"onclick="openKode('YaeMiko')">
+            <img src="css/YaeMiko.jpg" style="width: 100%" />
+        </button>
+        <button class="w3-container w3-animate-top w3-button w3-round-xxlarge w3-card" style="margin: 10px; padding: 0"onclick="openKode('hutao')">
+            <img src="css/hutao.jpg" style="width: 100%"  />
+        </button>
+        <button class="w3-container w3-animate-right w3-button w3-round-xxlarge w3-card" style="margin: 10px; padding: 0"onclick="openKode('nahida')">
+            <img src="css/nahida.jpg" style="width: 100%"/>
+        </button>
+    </div>
+</div>
+</center>
+<div id="Ayaka" class="w3-container Kode w3-animate-zoom" style="display:none">
+    
+    <div class="w3-animate-top w3-center" style="margin: 10px; padding: 0">
+        <img src="css/ayaka.jpg" style="width: 10%" />
+    </div>
+    <center><h2>KAMISATO AYAKA</h2></center>
+    <p>  Kamisato Ayaka, seorang karakter dalam permainan video Genshin Impact, merupakan putri dari keluarga aristokrat Kamisato di kota Inazuma. Ia menonjol dengan penampilan yang anggun dan elegan, mengenakan busana tradisional Jepang yang indah. Ayaka memegang kekuatan elemen Cryo, memungkinkannya untuk menghasilkan serangan dan kemampuan es yang memukau di medan pertempuran. Di samping kecakapan bertarungnya, Ayaka juga terkenal karena sikap tulus dan sopan, mencerminkan nilai-nilai keluarganya. Para pemain Genshin Impact tertarik dengan kombinasi kecantikan, keanggunan, dan kemampuan bertarung Ayaka, menjadikannya salah satu karakter yang paling diminati dalam permainan tersebut.
+    </p>
+</div>
+<div id="Raiden" class="w3-container Kode w3-animate-zoom" style="display:none">
+    <div class="w3-animate-top w3-center" style="margin: 10px; padding: 0">
+        <img src="css/raiden.jpg" style="width: 10%" />
+    </div>
+    <center><h2>RAIDEN SHOGUN</h2></center>
+    <p>Raiden Shogun, yang juga dikenal sebagai Ei, adalah pemimpin Inazuma dalam Genshin Impact, dengan penguasaan elemen Electro. Ia dikenal karena penampilannya yang kuat dan karismatik, mengenakan pakaian samurai yang megah. Raiden Shogun adalah figur otoriter yang memimpin dengan tangan besi demi kestabilan dan kemakmuran Inazuma. Keahliannya dalam pertempuran sangat mengesankan, dengan kemampuan Elemental Burst-nya, Musou Isshin, yang mengeluarkan serangan besar dan merusak.
+    </p>
+</div>
+<div id="YaeMiko" class="w3-container Kode w3-animate-zoom" style="display:none">
+    <div class="w3-animate-top w3-center" style="margin: 10px; padding: 0">
+        <img src="css/YaeMiko.jpg" style="width: 10%" />
+    </div>
+    <center><h2>YAE MIKO</h2></center>
+    <p>Yae Miko, seorang pendeta Shogun dan penduduk Inazuma, juga memiliki peran penting dalam cerita permainan. Dikenal karena pengetahuannya tentang aliran ilahi dan kebijaksanaannya, Yae Miko adalah sosok spiritual yang dapat meramal masa depan. Karakter ini memancarkan aura kebijaksanaan dan misteri, menjadikannya salah satu elemen kunci dalam pengembangan cerita yang berkaitan dengan Inazuma di Genshin Impact.
+    </p>
+</div>
+<div id="hutao" class="w3-container Kode w3-animate-zoom" style="display:none">
+    <div class="w3-animate-top w3-center" style="margin: 10px; padding: 0">
+        <img src="css/hutao.jpg" style="width: 10%" />
+    </div>
+    <center><h2>HU TAO</h2></center>
+    <p>Hutao, sang Penguasa Penguburan dari Liyue, mungkin memiliki latar belakang yang misterius dan berliku, diwarnai oleh pengalaman bekerja di Rumah Pembakaran Tua. Mungkin dia memegang rahasia kelam dan memiliki hubungan yang mendalam dengan dunia roh dan kematian. 
+</div>
+<div id="nahida" class="w3-container Kode w3-animate-zoom" style="display:none">
+    <div class="w3-animate-top w3-center" style="margin: 10px; padding: 0">
+        <img src="css/nahida.jpg" style="width: 10%" />
+    </div>
+    <center><h2>NAHIDA</h2></center>
+    <p>Yahida bisa jadi merupakan karakter dengan asal-usul yang eksotis, mungkin berasal dari budaya yang kaya akan mitos dan keajaiban. Mungkin Nahida adalah seorang penyihir atau pelindung spiritual yang berkeliaran di dunia, membawa cerita mistis dan keajaiban dalam setiap langkahnya. 
+    </p>
+</div>
+
+<div class="w3-panel w3-blue w3-center w3-text-white" style="margin: 0">
+    <div class="w3-container" style="padding: 1rem">
+      <p>web ini dibuat dengan❤️| by sendifauzann</p>
+    </div>
+</div>
+
+
+
+<script>
+    function openKode(namakode) {
+     var i;
+     var x = document.getElementsByClassName("Kode");
+     for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none"; 
+     }
+     document.getElementById(namakode).style.display = "block"; 
+    }
+</script>
+</body>
+</html>
